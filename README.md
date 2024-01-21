@@ -1,14 +1,8 @@
 # SimplePongYonatan
 
 This is a very simple implementation of the 'Pong' game loop - the score is capped at 3 and there are no main menu interactions or anything like that.
-## 
-The game consists of </br>
-1. A ball</br>
-2. Paddle Left + Right</br>
-4. Floor + Ceiling Colliders</br>
-5. Left + Right 'score area' Triggers</br>
 
-## Basic Explanation
+## Description
 At the start of the game the ball 'randomly' chooses one of four directions to go in and will change directions upon hitting paddles and walls like you would expect in the game pong,
 whenever the ball reaches a scoring area it will reset it's position and choose a new random direction (out of 4). </br>
 the game is currently set to end at 3 points for a player and does not have a reset method yet. </br>
