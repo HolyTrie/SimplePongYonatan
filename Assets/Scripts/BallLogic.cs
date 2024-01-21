@@ -6,6 +6,7 @@ public class BallLogic : MonoBehaviour
     // https://www.youtube.com/watch?v=OkfA5BFVq5o&ab_channel=FlutterBros
     private Rigidbody2D rb;
     [SerializeField] private float speed = 5f;
+    public float Speed {get {return speed;} set{speed=value;}}
     [SerializeField] private Vector2 startPosition = Vector2.zero;
     private Vector2 direction;
     // Start is called before the first frame update
