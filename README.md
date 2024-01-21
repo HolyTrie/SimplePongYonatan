@@ -16,8 +16,8 @@ players move the left paddle with W=Up and S=Down, and the right paddle with the
 each score area trigger also implements a bool guard which is only released after a coroutine waits for 1 second - this had to be added so the trigger effect wont occur twice or more before the ball can resets it's position.
 
 ## Code Highlights
-1. Score Area implements guard (false by default) which is only relesed by a coroutine after 1 second whenever a 'ball' triggers the event.
+1. Score Area implements guard (false by default) which is only relesed by a coroutine after 1 second whenever a 'ball' triggers the event. </br>
 ![image](https://github.com/HolyTrie/SimplePongYonatan/assets/73063105/044ad618-388a-49e8-8d26-e5844c93687e)
 
-2. Ball uses switch/match expressions and is otherwise as simple as can be - also FixedUpdate for physiscs instead of Update!
+2. Ball uses switch/match expressions and is otherwise as simple as can be - also FixedUpdate for physiscs instead of Update! </br>
 ![image](https://github.com/HolyTrie/SimplePongYonatan/assets/73063105/6858f6ec-9b48-4eaf-ab8c-176bff87200b)
